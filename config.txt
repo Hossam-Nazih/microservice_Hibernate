@@ -1,0 +1,12 @@
+# Configuration du conteneur Presentation2
+# Ligne 1 : implémentation du DAO (nom complet avec le package)
+#   dao.DaoImpl1 -> base de données (100.0)
+#   dao.DaoImpl2 -> service distant (50.0)
+dao.DaoImpl1
+# Ligne 2 : implémentation du métier
+#   metier.MetierImpl  -> double la valeur
+#   metier.MetierImpl2 -> calcule un prix TTC (TVA 20 %)
+#   metier.MetierImpl3 -> fonction Gamma d'Euler Γ(x), factorielle étendue aux réels
+#   metier.MetierImpl4 -> moyenne arithmético-géométrique de Gauss AGM(x, 1)
+#   metier.MetierImpl5 -> fonction W de Lambert (w tel que w·e^w = x)
+metier.MetierImpl
